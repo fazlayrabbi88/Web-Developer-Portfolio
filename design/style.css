@@ -12,18 +12,35 @@
     color: tomato;
 }
 
+.background-color {
+    background: rgb(255, 248, 243);
+}
+
+.sec-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: color: rgb(24, 24, 24);
+}
+
+.sec-description {
+    font-size: 18px;
+    color: rgb(117, 117, 117);
+}
+
+/* Header styles */
 .header-banner {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    width: auto;
+    height: 790px;
 }
 
-/* Nav styles */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 30px 100px;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -67,12 +84,40 @@ nav ul li a {
     max-width: 580px;
 }
 
+.banner-pp {
+    width: 580px;
+    height: 635px;
+}
+
 .banner-greetings {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 600;
 }
 
 .banner-title {
-    font-size: 85px;
+    font-size: 65px;
     font-weight: bold;
+}
+
+/* main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about styles */
+.about-section {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description {
+    font-weight: 600;
 }
